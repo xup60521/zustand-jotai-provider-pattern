@@ -1,7 +1,7 @@
 import { useAtomContext } from "./jotai-atom";
 import { useZustandStore } from "./zustand-store";
 
-const link = "https://xup60521.github.io"
+const link = "https://xup60521.github.io/zustand-jotai-provider-pattern/"
 
 export default function App() {
     const zustandStore = useZustandStore();
