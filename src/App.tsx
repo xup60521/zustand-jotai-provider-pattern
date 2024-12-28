@@ -4,7 +4,7 @@ import { useZustandStore } from "./zustand-store";
 const link = "https://github.com/xup60521/zustand-jotai-provider-pattern"
 
 export default function App() {
-    const zustandStore = useZustandStore();
+    const zustandStore = useZustandStore()();
     const [count, setCount] = useAtomContext();
     return (
         <div>

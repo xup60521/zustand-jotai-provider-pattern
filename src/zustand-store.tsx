@@ -34,4 +34,4 @@ export function ZustandStoreProvider({
     );
 }
 
-export const useZustandStore = () => React.useContext(zustandContext).store();
+export const useZustandStore = () => React.useContext(zustandContext).store;
